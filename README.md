@@ -2,13 +2,13 @@
 Deskripsi Proyek
 Proyek ini mengimplementasikan sistem Case-Based Reasoning (CBR) untuk mengklasifikasikan dan melakukan retrieval kasus narkotika berdasarkan teks putusan pengadilan (amar_putusan).
 
-Sistem menggunakan dua pendekatan:
+**Sistem menggunakan dua pendekatan:**
 
 BERT (IndoBERT): Model berbasis transformer untuk menghasilkan embedding teks dan klasifikasi kategori hukuman.
 
 TF-IDF + SVM: Pendekatan berbasis TF-IDF untuk representasi teks dan SVM untuk klasifikasi.
 
-Fitur utama meliputi:
+**Fitur utama meliputi:**
 
 Preprocessing teks untuk mengekstrak informasi hukuman (tahun, bulan, denda).
 
@@ -22,7 +22,7 @@ Evaluasi performa retrieval dan prediksi menggunakan metrik seperti akurasi, pre
 
 
 
-Dependensi
+**Dependensi**
 
 Proyek ini memerlukan library Python berikut:
 
@@ -50,17 +50,17 @@ os: Operasi sistem file.
 
 json: Menyimpan data uji dalam format JSON.
 
-Instal dependensi dengan perintah:
+**Instal dependensi dengan perintah:**
 
 pip install pandas numpy transformers tensorflow scikit-learn matplotlib seaborn scipy
 
-Catatan:
+**Catatan:**
 
 Pastikan versi transformers dan tensorflow kompatibel (contoh: transformers==4.30.2, tensorflow==2.12.0).
 
 Koneksi internet diperlukan untuk mengunduh model IndoBERT saat pertama kali dijalankan.
 
-Cara Menjalankan
+**Cara Menjalankan**
 
 Persiapan Data:
 
